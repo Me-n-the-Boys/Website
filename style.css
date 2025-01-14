@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #00000D;
+    background-image: url("img/MeAndTheBoysLogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 40vh;
+    justify-content: flex-end;
+}
+
+.navigation {
+    display: flex;
+    align-items: flex-end;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 11em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.34);
+}
+
+h1 {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 120px;
+}
+
+.description p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+    margin-right: 400px;
+    margin-left: 400px;
+    text-align: center;
+}
